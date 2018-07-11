@@ -367,7 +367,7 @@ def generateMatchTeamData():
         data.loc[pos,"Toss_Decision_Win_Percentage"] = teamTossDescionWinPercentage
         data.loc[pos,"Bat_Decision_Win_Percentage"] = teamBatDecisionWonPercentage
         data.loc[pos,"Match_Won"] = teamMatchWon
-        pos = pos + 1
+        pos = pos + 1 
 
         data.loc[pos,"Match_Id"] = matchId
         data.loc[pos,"Team_Id"] = opponentTeamId
